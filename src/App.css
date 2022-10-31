@@ -1,0 +1,17 @@
+.App {
+	width: 600px;
+	margin: 5em auto;
+}
+
+.Chart {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+	.App {
+		width: 90%;
+	}
+}
